@@ -11,7 +11,7 @@ source:
   sha256: 0d864b3fadc078ddf7982003977f711ac245e7d1973662849eb248365174bdd4
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - tiatoolbox=tiatoolbox.cli:main
