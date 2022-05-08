@@ -11,7 +11,7 @@ source:
   sha256: 9315c0fa034bda253f036fdbfb57c6dfdc3cd81406423d696af42326b5cee2e1
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - tiatoolbox=tiatoolbox.cli:main
@@ -23,6 +23,7 @@ requirements:
     - pytest-runner
     - python >=3.7
     - opencv >=4.5.5
+    - wsidicom >=0.2.0
   run:
     - albumentations >=1.1.0
     - click >=8.1.2
