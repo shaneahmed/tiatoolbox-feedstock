@@ -48,7 +48,7 @@ requirements:
     - torchvision >=0.12.0
     - tqdm >=4.63.1
     - umap-learn >=0.5.2
-    - wsidicom
+    - wsidicom >=0.2.0
     - zarr >=2.11.1
 
 test:
