@@ -3,7 +3,7 @@ About tiatoolbox
 
 Home: https://github.com/TissueImageAnalytics/tiatoolbox
 
-Package license: GPL-3.0-only
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tiatoolbox-feedstock/blob/main/LICENSE.txt)
 
@@ -15,7 +15,7 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15236&branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
         <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tiatoolbox-feedstock?branchName=main">
       </a>
     </td>
@@ -143,5 +143,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@John-P](https://github.com/John-P/)
 * [@sarthakpati](https://github.com/sarthakpati/)
+* [@shaneahmed](https://github.com/shaneahmed/)
 
