@@ -22,7 +22,6 @@ requirements:
     - pip
     - pytest-runner
     - python >=3.7
-    - opencv >=4.5.5
     - wsidicom >=0.2.0
   run:
     - albumentations >=1.1.0
@@ -49,7 +48,6 @@ requirements:
     - torchvision >=0.12.0
     - tqdm >=4.63.1
     - umap-learn >=0.5.2
-    - wsidicom >=0.2.0
     - zarr >=2.11.1
 
 test:
