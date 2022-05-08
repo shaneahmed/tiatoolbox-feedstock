@@ -22,9 +22,9 @@ requirements:
     - pip
     - pytest-runner
     - python >=3.7
-    - wsidicom >=0.2.0
+    - opencv >=4.5.5
   run:
-    - albumentations >=1.1.0
+    - albumentations
     - click >=8.1.2
     - defusedxml >=0.7.1
     - glymur >=0.9.9
@@ -48,6 +48,7 @@ requirements:
     - torchvision >=0.12.0
     - tqdm >=4.63.1
     - umap-learn >=0.5.2
+    - wsidicom
     - zarr >=2.11.1
 
 test:
