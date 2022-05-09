@@ -3,7 +3,7 @@ About tiatoolbox
 
 Home: https://github.com/TissueImageAnalytics/tiatoolbox
 
-Package license: GPL-3.0-only
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tiatoolbox-feedstock/blob/main/LICENSE.txt)
 
@@ -143,5 +143,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@John-P](https://github.com/John-P/)
 * [@sarthakpati](https://github.com/sarthakpati/)
+* [@shaneahmed](https://github.com/shaneahmed/)
 
