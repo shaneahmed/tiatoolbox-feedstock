@@ -1,5 +1,5 @@
 {% set name = "tiatoolbox" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9315c0fa034bda253f036fdbfb57c6dfdc3cd81406423d696af42326b5cee2e1
+  sha256: 6b5642aad171efb8966f716bb5cecfc12bb9da8c052f142fac41ca9784ef1e67
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - tiatoolbox=tiatoolbox.cli:main
