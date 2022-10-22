@@ -69,7 +69,7 @@ about:
   home: https://github.com/TissueImageAnalytics/tiatoolbox
   summary: Computational pathology toolbox developed by TIA Lab.
   license: BSD-3-Clause
-  license_file: LICENSE
+  license_file: {{ RECIPE_DIR if RECIPE_DIR is defined else '' }}/LICENSE
 
 extra:
   recipe-maintainers:
