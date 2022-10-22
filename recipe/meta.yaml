@@ -26,6 +26,7 @@ requirements:
   run:
     - albumentations >=1.0.3
     - click >=8.1.2
+    - cudatoolkit >=11.3
     - defusedxml >=0.7.1
     - flask >=2.1.1
     - glymur >=0.9.9
