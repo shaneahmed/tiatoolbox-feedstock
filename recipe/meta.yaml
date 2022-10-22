@@ -11,7 +11,7 @@ source:
   sha256: 52e2164f7297ca0db47a2943f01a11d6c658cf9021442943f93ae0248b175932
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - tiatoolbox=tiatoolbox.cli:main
@@ -31,7 +31,7 @@ requirements:
     - glymur >=0.9.9
     - imagecodecs >=2021.11.20
     - joblib >=1.1.0
-    - jupyterlab
+    - jupyterlab >=3.4.0
     - matplotlib-base >=3.5.1
     - numpy >=1.21.5
     - opencv >=4.5.5
@@ -47,7 +47,8 @@ requirements:
     - scikit-learn >=1.0.2
     - scipy >=1.7.3
     - shapely >=1.8.1
-    - sphinx >=4.5.0
+    - SimpleITK >=2.1.1
+    - sphinx >=4.3.2
     - tifffile >=2021.11.2
     - torchvision >=0.12.0
     - tqdm >=4.63.1
