@@ -1,11 +1,11 @@
-About tiatoolbox
-================
+About tiatoolbox-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tiatoolbox-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/TissueImageAnalytics/tiatoolbox
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tiatoolbox-feedstock/blob/main/LICENSE.txt)
 
 Summary: Computational pathology toolbox developed by TIA Lab.
 
