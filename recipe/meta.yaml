@@ -54,7 +54,7 @@ requirements:
     - tifffile >=2022.10.10, <=2023.4.12
     - torchvision >=0.14.1, <=0.15.1
     - tqdm >=4.64.1, <=4.65.0
-    - umap-learn >=0.5.3, <=0.5.3
+    - umap-learn >=0.5.0, <=0.5.3
     - wsidicom >=0.7.0, <=0.9.0
     - zarr >=2.13.3, <=2.14.2
 
