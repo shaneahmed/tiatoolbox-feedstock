@@ -42,7 +42,7 @@ requirements:
     - pillow >=9.3.0, <=9.5.0
     - pixman >=0.39.0, <=0.40.0
     - pydicom >=2.3.1, <=2.3.1
-    - python >=3.8, <3.11
+    - python >=3.8, <=3.11
     - pytorch >=2.0.0
     - pyyaml >=6.0, <=6.0
     - requests >=2.28.1, <=2.30.0
