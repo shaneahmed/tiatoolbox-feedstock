@@ -31,6 +31,7 @@ requirements:
     - imagecodecs >=2022.9.26, <=2023.3.16
     - joblib >=1.1.1, <=1.2.0
     - jupyterlab >=3.5.2, <=3.6.3
+    - libtiff>=4.5.0
     - matplotlib-base >=3.6.2, <=3.7.1
     - numpy >=1.23.5, <1.24.3
     - opencv >=4.6.0, <=4.7.0
