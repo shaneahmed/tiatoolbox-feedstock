@@ -33,8 +33,8 @@ requirements:
     - flask-cors
     - glymur
     - imagecodecs
-    - joblib >=1.1.1, <=1.3.2
-    - jupyterlab >=3.5.2, <=4.0.9
+    - joblib
+    - jupyterlab
     - matplotlib-base >=3.6.2, <=3.8.2
     - numba
     - numpy >=1.23.5, <=1.26.2
@@ -59,7 +59,7 @@ requirements:
     - torchvision >=0.15.0, <=0.16.2
     - tqdm >=4.64.1, <=4.66.1
     - umap-learn
-    - wsidicom >=0.7.0, <=0.17.0
+    - wsidicom
     - zarr >=2.13.3, <=2.16.1
 
 test:
