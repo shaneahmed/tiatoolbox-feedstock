@@ -1,5 +1,5 @@
 {% set name = "tiatoolbox" %}
-{% set version = "1.4.1" %}
+{% set version = "1.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 66fca671b244ce80f65ac300dc08ee24beed5e6ede1e94122daeaa54ca0a192f
+  sha256: 55b71b9423c57c8b533222552e11fe9addf04290763d1a6b241e55b17923c773
 
 build:
   number: 0
