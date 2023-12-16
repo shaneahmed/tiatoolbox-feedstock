@@ -57,6 +57,7 @@ requirements:
     - umap-learn >=0.5.0, <=0.5.3
     - wsidicom >=0.7.0, <=0.9.0
     - zarr >=2.13.3, <=2.14.2
+    - flask_cors
 
 test:
   imports:
