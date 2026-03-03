@@ -16,6 +16,7 @@ build:
   script: pip install . -vv
   entry_points:
     - tiatoolbox=tiatoolbox.cli:main
+  skip: true  # [py>312]
 
 requirements:
   host:
