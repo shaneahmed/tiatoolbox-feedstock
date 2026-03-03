@@ -44,7 +44,7 @@ requirements:
     - opencv >=4.6.0,<=4.10.0
     - openjpeg >=2.4.0,<=2.5.4
     - openslide >=4.0.0
-    - openslide-python >=1.2.0,<=1.4.1
+    - openslide-python >=1.2.0,<=1.4.3
     - pandas >=2.0.0,<=2.2.3
     - pillow >=9.3.0,<=12.1.1
     - pixman >=0.39.0,<=0.44.2        # [linux]
