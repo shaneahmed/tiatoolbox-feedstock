@@ -20,6 +20,7 @@ build:
 
 requirements:
   host:
+    - python
     - pip
     - pytest-runner
 
@@ -32,20 +33,21 @@ requirements:
     - flask >=2.2.2, <=3.1.0
     - flask-cors >=4.0.0, <=5.0.0
     - glymur >=0.12.7, <=0.13.6
-    - imagecodecs >=2022.9.26, <=2026.1.14
+    - imagecodecs >=2022.9.26, <=2024.9.22
     - joblib >=1.1.1, <=1.4.2
     - jupyterlab >=3.5.2, <=4.3.2
     - matplotlib-base >=3.6.2, <=3.9.3
     - numba >=0.57.0, <=0.60.0
     - numpy >=1.23.5, <2.0.0
     - opencv >=4.6.0, <=4.10.0
-    - openjpeg >=2.4.0, <=2.5.4
+    - openjpeg >=2.4.0, <=2.5.3
     - openslide >=4.0.0
     - openslide-python >=1.2.0, <=1.4.1
     - pandas >=2.0.0, <=2.2.3
-    - pillow >=9.3.0, <=12.1.1
+    - pillow >=9.3.0, <=11.0.0
     - pixman >=0.39.0, <=0.44.2        # [linux]
     - pydicom >=2.3.1, <=3.0.1
+    - python >=3.9,<3.13
     - pytorch >=2.0.0, <=2.5.1
     - torchvision >=0.15.0, <=0.20.1
     - pyyaml >=6.0, <=6.0.2
@@ -60,7 +62,7 @@ requirements:
     - timm >=1.0.3, <=1.0.12
     - tqdm >=4.64.1, <=4.67.1
     - umap-learn >=0.5.3, <=0.5.7
-    - wsidicom >=0.18.0, <=0.29.0
+    - wsidicom >=0.18.0, <=0.22.0
     - zarr >=2.13.3, <=2.18.3
 
 test:
