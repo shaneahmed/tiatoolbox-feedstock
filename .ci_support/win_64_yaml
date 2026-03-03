@@ -1,0 +1,11 @@
+cdt_name:
+  - vs2019
+channel_sources:
+  - conda-forge
+channel_targets:
+  - conda-forge main
+python:
+  - 3.9
+  - 3.10
+  - 3.11
+  - 3.12
