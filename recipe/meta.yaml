@@ -37,7 +37,7 @@ requirements:
     - wheel
 
   run:
-    - albumentations >=1.3.0,<=2.0.8
+    - albumentations >=1.3.0,<=1.4.20
     - bokeh >=3.8.2,<=3.9.0
     - click >=8.2.0,<=8.4.0
     - dask >=2026.1.2,<=2026.3.0
