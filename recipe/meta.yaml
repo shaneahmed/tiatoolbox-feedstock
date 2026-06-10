@@ -88,6 +88,7 @@ test:
     - tiatoolbox.annotation
     - tiatoolbox.models.engine.multi_task_segmentor
   commands:
+    - pip check
     - python -c "import simsimd"
     - tiatoolbox --help
   requires:
