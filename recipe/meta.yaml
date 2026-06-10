@@ -1,5 +1,5 @@
 {% set name = "tiatoolbox" %}
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 {% set python_min = "3.11" %}
 
 
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2653fa3746778f3debee57242477153f9def26da395f87ef9ea53c68db6d2a92
+  sha256: cc079c989d0493261dcf2e9dba5163be756ae3ad0725946aba37d145e65e06d7
 
 build:
-  number: 1
+  number: 0
 
   # ----- WINDOWS UTF‑8 FIX -----
   # Windows defaults to cp1252, causing setuptools metadata decode failures.
