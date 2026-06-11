@@ -85,16 +85,16 @@ requirements:
 test:
   imports:
     - tiatoolbox
-    - tiatoolbox.annotation
-    - tiatoolbox.models.engine.multi_task_segmentor
   commands:
     - pip check
     - python -c "import simsimd"
+    - python -c "import tiatoolbox"
+    - python -c "import tiatoolbox.annotation"
+    - python -c "import tiatoolbox.models.engine.multi_task_segmentor"
     - tiatoolbox --help
   requires:
     - pip
     - python
-    - simsimd >=7.0.0,<=7.7.0
 
 about:
   home: https://github.com/TissueImageAnalytics/tiatoolbox
