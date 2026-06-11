@@ -86,6 +86,7 @@ requirements:
 
 test:
   imports:
+    - simsimd
     - tiatoolbox
     - tiatoolbox.annotation
     - tiatoolbox.models.engine.multi_task_segmentor
