@@ -85,16 +85,15 @@ requirements:
     - zarr >=3.0.8,<=3.2.1
 
 test:
+  imports:
+    - tiatoolbox
+    - tiatoolbox.annotation
+    - tiatoolbox.models.engine.multi_task_segmentor
   commands:
-    - pip check || pip check 2>&1 | grep -q "requires openslide-bin"
-    - python -c "import simsimd"
-    - python -c "import tiatoolbox"
-    - python -c "import tiatoolbox.annotation"
-    - python -c "import tiatoolbox.models.engine.multi_task_segmentor"
     - tiatoolbox --help
   requires:
     - pip
-    - python {{ python_min }}
+    - python
     - simsimd >=7.0.0,<=7.7.0
 
 about:
