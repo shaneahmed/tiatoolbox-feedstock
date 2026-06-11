@@ -96,6 +96,7 @@ test:
     - pip
     - python
     - simsimd >=7.0.0,<=7.7.0
+    - {{ name|lower }}
 
 about:
   home: https://github.com/TissueImageAnalytics/tiatoolbox
