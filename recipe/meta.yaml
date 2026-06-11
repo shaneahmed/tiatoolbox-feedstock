@@ -85,17 +85,17 @@ requirements:
     - zarr >=3.0.8,<=3.2.1
 
 test:
-  imports:
+  requires:
+    - pip
+    - python
     - simsimd
+  imports:
+    - numkong
     - tiatoolbox
     - tiatoolbox.annotation
     - tiatoolbox.models.engine.multi_task_segmentor
   commands:
     - tiatoolbox --help
-  requires:
-    - pip
-    - python
-    - simsimd >=7.0.0,<=7.7.0
 
 about:
   home: https://github.com/TissueImageAnalytics/tiatoolbox
