@@ -39,6 +39,7 @@ requirements:
   run:
     - aiohttp >=3.8.1,<=3.14.1
     - albumentations >=1.3.0,<=2.0.8
+    - albucore
     - bokeh >=3.8.2,<=3.9.1
     - click >=8.2.0,<=8.4.1
     - dask >=2026.1.2,<=2026.3.0
@@ -89,6 +90,7 @@ test:
     - pip
     - python
     - simsimd
+    - albucore
   imports:
     - numkong
     - tiatoolbox
